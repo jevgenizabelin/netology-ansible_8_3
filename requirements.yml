@@ -5,9 +5,9 @@
     name: elastic
   - src: git@github.com:jevgenizabelin/kibana-role.git
     scm: git
-    version: "0.0.2"
+    version: "0.0.3"
     name: kibana_role
   - src: git@github.com:jevgenizabelin/filebeat-role.git
     scm: git
-    version: "0.0.1"
+    version: "0.0.3"
     name: filebeat_role      
