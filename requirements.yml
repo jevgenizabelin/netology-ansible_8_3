@@ -9,5 +9,9 @@
     name: kibana_role
   - src: git@github.com:jevgenizabelin/filebeat-role.git
     scm: git
-    version: "0.0.3"
+    version: "1.0.0"
     name: filebeat_role      
+  - src: git@github.com:jevgenizabelin/logstash-role.git
+    scm: git
+    version: "0.0.1"
+    name: logstash_role      

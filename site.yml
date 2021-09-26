@@ -7,6 +7,10 @@
   hosts: kibana
   roles:
     - kibana_role
+- name: Install Logstash
+  hosts: logstash
+  roles:
+    - logstash_role    
 - name: Install Filebeat
   hosts: filebeat
   roles:
